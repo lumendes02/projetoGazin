@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    position: relative;
+    background: #191B1F;
+    font-family: 'roboto';
+}
+
+footer {
+  color: #E2E2E2;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+footer h1{
+  font-style: bold;
+}
+
+.inputBar{
+    border-radius: 6px 0px 0px 6px ;
+    background-color: #C4C4C4;
+}
+
+.inputBut{
+    border-radius: 0px 6px 6px 0px;
+    background-color: #C4C4C4;
+    border: none;
+    
+}
+
+.carousel-item {
+    height: 32rem;
+    background: black;
+    position: relative;
+   
+  }
+
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    text-align: left;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next{
+    width: 5%;
+  }
+
+  .overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    background-position: center;
+    background-size: 100% 600px;
+    opacity: 0.6;  
+    
+  }
+
+  .descricaoBanner{
+    word-wrap: break-word;
+    width: 40%;
+    height: 15%;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  .tituloBanner h5{
+    font-size: 35px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-weight: bold;
+  }
+  .notaBanner{
+    text-align: right;
+    padding-bottom: 8%;
+    padding-right: 5%;
+  }
+  .notaBanner #logo{
+    margin-bottom: 12px;
+    height: 50px; width: 100px;
+    margin-left: 4px;
+  }
+  .notaBanner #star{
+    margin-bottom: 9px;
+    height: 35px; width: 35px;
+    margin-right: 6px;
+  }
+  .notaBanner h5{
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  .row {
+    margin: 15px;
+  }
+  .info{
+   
+   color: #B6B6B6;
+   padding: 5px;
+
+  }
+  .info p{
+   
+   color: #B6B6B6;
+   padding: 5px;
+   margin-bottom: 0;
+  }
+  .titulo h5{
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+            line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .poster{
+    background-color: black;
+    border-radius: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .image-poster img{
+    border-radius: 5px 5px 0 0;
+  }
+
+
+
+  .wrapper{
+    width: 100%;
+    
+  }
+  .categoria{
+    color: white;
+    margin-left: 80px;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+  .wrapper .carouselMovie{
+    
+    margin: auto;
+    padding: 0 30px;
+  }
+
+  .actorImage{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 16px;
+  }
+
+  .actorImage img{
+    width: auto;
+  height: 100%;
+  
+
+  }
+
+  .actorPoster{
+    background-color: none;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 350px;
+  }
+
+  .opa{
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 400px;
+  }
+
+  .header{
+      height: 400px;
+      width: 100%;
+      background-color: rgb(0, 0, 0);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center; 
+  }
+
+  .header img{
+    width: 270px;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .infoDetails{
+      margin: 50px;
+      margin-top: 60px;
+      color: white;
+      border-top-style:solid;
+      border-width: 1px;
+      border-color: rgba(255, 255, 255, 0.233);
+  }
+
+  .title h5{
+      font-size: 20px;
+      margin-top: 5px;
+  }
+
+  .title h1{
+      margin-bottom: 5px;
+      color: white;
+  }
+
+  .opaActor{
+    height: 500px;
+  }
+
+  .desc{
+    margin-top: 50px;
+    
+  }
+
+  .headerActor{
+    height: 400px;
+    width: 100%;
+    background-color: #191B1F; 
+}
+
+.headerActor img{
+  width: 270px;
+  height: 100%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.onClickButton {
+  background-color: #da9d03;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+  max-width: 100px;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  color: white;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+.filmB{
+  max-width: none;
+}
+
+.pesquisar{
+  display: table-cell;
+ 
+}
+
+.dois{
+  display: table;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+.dois button{
+  padding-bottom: 6px;
+  padding-top: 6px;
+  margin-bottom: 3px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #C4C4C4;
+  border-color: #C4C4C4;
+  color: black;
+}
+
+.pesquisar input{
+  border-color: #C4C4C4;
+ width: 100%;
+ border-radius: 5px 0px 0px 5px;
+}
+
+.pesquisar button:hover{
+  background-color: black;
+}
+
+
+
+  
+
+  
