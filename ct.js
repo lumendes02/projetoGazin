@@ -4,7 +4,7 @@ function banner() {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "imdb8.p.rapidapi.com",
-            "x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+            "x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
         }
     })
         .then(res => res.json())
@@ -24,7 +24,7 @@ function banner() {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "imdb8.p.rapidapi.com",
-                "x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+                "x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
             }
         })
             .then(res => res.json())
@@ -49,7 +49,7 @@ function banner() {
                 "method": "GET",
                 "headers": {
                     "x-rapidapi-host": "imdb8.p.rapidapi.com",
-                    "x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+                    "x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
                 }
             })
             .then(res => res.json())
@@ -135,7 +135,7 @@ function listFilms() {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "imdb8.p.rapidapi.com",
-            "x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+            "x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
         }
     })
         .then(res => res.json())
@@ -179,7 +179,7 @@ function listFilms() {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "imdb8.p.rapidapi.com",
-                "x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+                "x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
             }
         })
             .then(res => res.json())
@@ -205,7 +205,7 @@ function listFilms() {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "imdb8.p.rapidapi.com",
-                "x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+                "x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
             }
         })
             .then(res => res.json())
@@ -243,7 +243,7 @@ function listActors() {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "imdb8.p.rapidapi.com",
-            "x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+            "x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
         }
     })
         .then(res => res.json())
@@ -279,7 +279,7 @@ function listActors() {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "imdb8.p.rapidapi.com",
-                "x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+                "x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
             }
         })
             .then(res => res.json())
@@ -323,7 +323,7 @@ function movieDetails() {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "imdb8.p.rapidapi.com",
-            "x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+            "x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
         }
     })
         .then(res => res.json())
@@ -364,7 +364,7 @@ function searchFilm() {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "imdb8.p.rapidapi.com",
-		"x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+		"x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
 	}
 })
 .then(res => res.json())
@@ -409,7 +409,7 @@ function actorDetails() {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "imdb8.p.rapidapi.com",
-		"x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+		"x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
 	}
 })
 .then(res => res.json())
@@ -448,7 +448,7 @@ function actorDetails() {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "imdb8.p.rapidapi.com",
-		"x-rapidapi-key": "3fd77e12a1msh7144d1d6e7ad95cp1fa391jsn6d939ef21be4"
+		"x-rapidapi-key": "e564bb68d5msh60b981d3a5c247ep16dabbjsn47683840b5d3"
 	}
 })
     .then(res => res.json())
